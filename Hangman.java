@@ -2,13 +2,6 @@ import java.util.*;
 import java.util.Scanner;
 
 class Hangman{
-    public boolean chex(char a, char b)
-    {
-        if(a == b)
-        return true;
-        else
-        return false;
-    }
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
